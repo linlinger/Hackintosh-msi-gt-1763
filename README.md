@@ -1,12 +1,21 @@
-# Hackintosh-msi-gt-1763
-install MacOS on MSI GT 1763
+MSI GT-1763
+device-specs：
+i7 4700MQ with Intel HD Graphics 4600
+AMD Radeon RX 480
 
-hardware spec:
-i7 4710MQ with intel HD graphic 4600
-AMD Radeon RX 480(it's okay if you have other graphics card)
-Qualcomm Atheros Killer E2200 PCI Express Gigabit Ethernet
+Working
+Graphics（Including hardware acceleration）
+Sound
+CPU freq changes
+Ethernet
+Not working：
+Sleep/wake
+wireless-based features（airdrop handoff etc.）
 
-Suppoorted macOS version:10.14 above
+HOW TO CHOOSE CONFIG FILE
+If your graphics card is compatible with MacOS Mojave. Use config.plist directly.
 
+If you have a AMD rx 480 or other AMD RX graphics card.use config-enable-hardware-acceleration.plist boot first.Once you make sure hardware acceleration is turned on.
+Boot with config.plist instead.There's no need 4u to use that.
 
-
+If you have Mojave unsupported DGPU。use config-no-Mojave-compatible-DGPU。plist

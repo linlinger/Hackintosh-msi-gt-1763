@@ -190,7 +190,6 @@
 			<string>SSDT.aml</string>
 			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-PluginType1.aml</string>
-			<string>SSDT-Disable-DGPU.aml</string>
 		</array>
 		<key>DropTables</key>
 		<array>
@@ -223,9 +222,11 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcoff</string>
+		<string>dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcoff shiki-id=Mac-7BA5B2D9E42DDD94</string>
+		<key>HibernationFixup</key>
+		<false/>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -425,7 +426,7 @@
 				BgAmCg==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				EgQAAA==
@@ -439,7 +440,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel HD Graphics 4600 </string>
+				<string>Intel HD Graphics 4600</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -492,10 +493,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Hide</key>
-		<array>
-			<string>preboot</string>
-		</array>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -599,8 +596,6 @@
 				</data>
 			</dict>
 		</array>
-		<key>KernelXCPM</key>
-		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -895,7 +890,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio, port 0204, 0x0a260005 0x0a260006</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AgQJAAAEAACHAAAA
@@ -1183,49 +1178,49 @@
 		<key>#ProductName-MacBookAir</key>
 		<string>MacBookAir6,2</string>
 		<key>BiosReleaseDate</key>
-		<string>06/13/2019</string>
+		<string>07/26/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.F000.B00.1906132059</string>
+		<string>IMP11.88Z.F000.B00.1907261958</string>
 		<key>Board-ID</key>
-		<string>Mac-189A3D4F975D5FFC</string>
+		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C17303401CDFH31A8</string>
+		<string>C02706501GUJG361F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>iMacPro-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x0A</string>
+		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>156.0.0.0.0</string>
+		<string>1037.0.39.151.1</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE137</string>
+		<string>0xFD8FF53F</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
-		<true/>
+		<false/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x00</string>
 		<key>ProductName</key>
-		<string>MacBookPro11,1</string>
+		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C17K404PFH00</string>
+		<string>C02T7XZGHX87</string>
 		<key>SmUUID</key>
-		<string>AEB6DB12-1977-45C8-8D88-DD99BA6DF6E3</string>
+		<string>EFEAEE1E-2667-462B-B336-E8BD6A18A01A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
