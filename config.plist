@@ -192,7 +192,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>shiki-id=Mac-7BA5B2D9E42DDD94 -v</string>
+		<string>shiki-id=Mac-7BA5B2D9E42DDD94</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
