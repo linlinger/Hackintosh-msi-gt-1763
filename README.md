@@ -8,12 +8,16 @@ BCM94360HMB
 You have to set boot mode to UEFI with csm or you will meet display issues!!!
 
 Working
-Everything
+*IGPU
+*Sound （VoodooHDA）
+*Ehternet and wifi （Currectly using BCM94360HMB）
+*USB ports
+Sleep
 
-HOW TO CHOOSE CONFIG FILE
-If your graphics card is compatible with MacOS. Use config.plist directly.
-
-If you have Mojave unsupported DGPU。use config-no-Mojave-compatible-DGPU。plist
+Not Working 
+DGPU
 
 
-This Branch will no longer being updated unless new macOS big version release (like Catalina to Big sur )
+
+
+
