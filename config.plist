@@ -78,7 +78,7 @@
 					<key>Replace</key>
 					<data>SUdQVQ==</data>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 				</dict>
@@ -310,14 +310,12 @@
 			<dict>
 				<key>framebuffer-portcount</key>
 				<data>AgAAAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AAAAAA==</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
@@ -341,34 +339,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
-				<key>Key</key>
-				<string>hda-gfx</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
-			</dict>
-			<dict>
-				<key>Key</key>
-				<string>hda-gfx</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
+				<key>Key</key>
+				<string>hda-gfx</string>
 				<key>Comment</key>
 				<string>hda-gfx=onboard-1 for HDMI audio</string>
-				<key>Device</key>
-				<string>HDA</string>
 			</dict>
 			<dict>
-				<key>Key</key>
-				<string>layout-id</string>
-				<key>Value</key>
-				<data>AwAAAA==</data>
-				<key>Comment</key>
-				<string>layout-id=3</string>
 				<key>Device</key>
 				<string>HDA</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Key</key>
+				<string>hda-gfx</string>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
+			</dict>
+			<dict>
+				<key>Device</key>
+				<string>HDA</string>
+				<key>Value</key>
+				<data>AwAAAA==</data>
+				<key>Key</key>
+				<string>layout-id</string>
+				<key>Comment</key>
+				<string>layout-id=3</string>
 			</dict>
 			<dict>
 				<key>Key</key>
