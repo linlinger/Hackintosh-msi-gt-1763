@@ -128,32 +128,6 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Audio Fix</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>FEYFX0NSUwg=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>FEYFQlVGQQg=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -215,19 +189,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,0</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
-				<key>layout-id</key>
-				<data>AgAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -238,24 +199,25 @@
 				<data>EgQAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQUSAAAIAACHAAAA/wAAAAEAAABAAAAA</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-cursormem</key>
 				<data>AACQAA==</data>
-				<key>framebuffer-memorycount</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-portcount</key>
+				<key>model</key>
+				<string>Intel HD Graphics 4600</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
+				<key>layout-id</key>
 				<data>AgAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 4600</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -325,13 +287,13 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
-				<string>Need to be disabled in Big Sur and up</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -1109,12 +1071,12 @@
 				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>-v</string>
+				<key>run-efi-updater</key>
+				<string>No</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>DgAA</data>
-				<key>run-efi-updater</key>
-				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
