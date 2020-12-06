@@ -296,7 +296,7 @@
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>AgAAAA==</data>
+				<data>BAAAAA==</data>
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
 				<key>hda-gfx</key>
@@ -339,34 +339,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Key</key>
+				<string>hda-gfx</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
 				<key>Key</key>
 				<string>hda-gfx</string>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
-			</dict>
-			<dict>
 				<key>Device</key>
 				<string>HDA</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Key</key>
-				<string>hda-gfx</string>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 			</dict>
 			<dict>
-				<key>Device</key>
-				<string>HDA</string>
+				<key>Comment</key>
+				<string>layout-id=3</string>
 				<key>Value</key>
 				<data>AwAAAA==</data>
 				<key>Key</key>
 				<string>layout-id</string>
-				<key>Comment</key>
-				<string>layout-id=3</string>
+				<key>Device</key>
+				<string>HDA</string>
 			</dict>
 			<dict>
 				<key>Key</key>
