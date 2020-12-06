@@ -9,13 +9,20 @@ You have to set boot mode to UEFI with csm or you will meet display issues!!!
 
 Working
 *IGPU and DGPU 
-*Sound （VoodooHDA）
+*Sound （AppleALC）
 *Ehternet and wifi （Currectly using BCM94360HMB）
 *USB ports
 Sleep
 
-Not Working 
-sound driven by AppleALC
+BIOS settings
+
+Boot
+Boot mode。UEFI with CSM
+
+
+Security
+
+Secure Boot ： OFF
 
 
 
