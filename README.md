@@ -1,29 +1,23 @@
+# Device Specs
 MSI GT-1763
-device-specs：
-i7 4700MQ with Intel HD Graphics 4600
-AMD Radeon RX 480
+CPU:i7 4700MQ with Intel HD Graphics 4600
+Graphic CardAMD Radeon RX 480
 BCM94360HMB
 
-Read before install
-You have to set boot mode to UEFI with csm or you will meet display issues!!!
+## Read before install
+You have to set boot mode to UEFI with csm or you will meet display issues
 
-Working
-*IGPU and DGPU 
-*Sound （AppleALC）
-*Ehternet and wifi （Currectly using BCM94360HMB）
-*USB ports
-Sleep
+# Working
+Display (Both IGPU and DGPU)
+Eehernet
+Wi-Fi (an Apple geniue wireless card is required)
+Sound
 
-BIOS settings
-
-Boot
-Boot mode。UEFI with CSM
-
-
-Security
-
-Secure Boot ： OFF
-
+# Known issue:
+Install Big Sur may failed due to nvram in Clover Builds
+FileValut is not supported
+Card reader not working.
+HDMI out not working due to DGPU Vbios issue
 
 
 
