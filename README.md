@@ -14,7 +14,7 @@ Wi-Fi (an Apple geniue wireless card is required)
 Sound  
 
 # Known issue:
-Install Big Sur may failed due to nvram in Clover Builds  
+Install Big Sur may fail due to nvram in Clover Builds  
 FileValut is not supported  
 Card reader not working.  
 HDMI out not working due to DGPU Vbios issue  
