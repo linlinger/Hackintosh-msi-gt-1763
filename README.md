@@ -5,6 +5,7 @@ Graphic CardAMD Radeon RX 480
 BCM94360HMB  
 
 ## Read before install
+It's not recommended use clover for Big Sur Installations. You will meet different issues when installing Big Sur. 
 You have to set boot mode to UEFI with csm or you will meet display issues  
 
 # Working
