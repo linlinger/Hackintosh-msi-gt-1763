@@ -17,7 +17,9 @@ Sound
 Install Big Sur may fail due to nvram in Clover Builds  
 FileValut is not supported  
 Card reader not working.  
-HDMI out not working due to DGPU Vbios issue  
+HDMI out not working due to DGPU Vbios issue 
+Sound will not be available after sleep。Maybe more injection is required
+ 
 
 
 
