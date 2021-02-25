@@ -6,6 +6,7 @@ BCM94360HMB
 
 Read before install
 You have to set boot mode to UEFI with csm or you will meet display issues!!!
+Please install clover package mannually in order to update clover
 
 Working
 *IGPU and DGPU 

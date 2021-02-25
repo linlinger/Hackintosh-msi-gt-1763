@@ -339,34 +339,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
+				<key>Key</key>
+				<string>hda-gfx</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
+			</dict>
+			<dict>
+				<key>Key</key>
+				<string>hda-gfx</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
 				<key>Comment</key>
 				<string>hda-gfx=onboard-1 for HDMI audio</string>
-				<key>Key</key>
-				<string>hda-gfx</string>
-			</dict>
-			<dict>
 				<key>Device</key>
 				<string>HDA</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
-				<key>Key</key>
-				<string>hda-gfx</string>
 			</dict>
 			<dict>
-				<key>Device</key>
-				<string>HDA</string>
+				<key>Key</key>
+				<string>layout-id</string>
 				<key>Value</key>
 				<data>AwAAAA==</data>
 				<key>Comment</key>
 				<string>layout-id=3</string>
-				<key>Key</key>
-				<string>layout-id</string>
+				<key>Device</key>
+				<string>HDA</string>
 			</dict>
 			<dict>
 				<key>Key</key>
@@ -384,7 +384,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>4</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
