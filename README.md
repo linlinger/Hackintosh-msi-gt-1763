@@ -19,6 +19,9 @@ FileValut is not supported
 Card reader not working.  
 HDMI out not working because of DGPU Vbios issue 
 
+# Cridets
+OCBinaryData with the fancy theme the link is https://github.com/acidanthera/OcBinaryData
+
  
 
 
