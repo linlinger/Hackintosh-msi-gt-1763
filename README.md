@@ -22,3 +22,4 @@ HDMI out not working due to DGPU Vbios issue
 
 
 
+# This branch is no longer being maintained. Please use OC branch for higher macOS versions
