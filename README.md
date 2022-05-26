@@ -10,12 +10,15 @@ You have to set boot mode to UEFI with csm or you will meet display issues
 # Working
 Display (Both IGPU and DGPU)  
 Eehernet  
-Wi-Fi (an Apple geniue wireless card is required)  
+Wi-Fi (an Apple geniue wireless card is required)
+Sleep/Wake
+USB ports
+File Valut 
+Multiboot support for Linux distros 
 Sound  
 
 # Known issue:
-Install Big Sur may fail due to nvram in Clover Builds  
-FileValut is not supported  
+Builtin camera
 Card reader not working.  
 HDMI out not working because of DGPU Vbios issue 
 
