@@ -1,3 +1,5 @@
+#This project is no longer maintained cuz the cpu is not offical supported by macOS Ventura.
+
 # Device Specs
 MSI GT-1763  
 CPU:i7 4700MQ with Intel HD Graphics 4600  
